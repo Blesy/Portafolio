@@ -1,4 +1,5 @@
 ---
+import { t } from 'i18next';
 ---
 
 <section
@@ -7,20 +8,13 @@
 	class="mb-10 flex flex-col items-center justify-center lg:mb-0 lg:h-screen lg:flex-row"
 >
 	<div class="mb-10 flex w-full flex-col items-center justify-center lg:mb-0 lg:w-1/2">
-		<h2 class="font-monospace text-2xl text-orange lg:text-4xl">About me</h2>
+		<h2 class="font-monospace text-2xl text-orange lg:text-4xl">{t("about.title")}</h2>
 		<span class="mb-6 ml-2 h-1 w-10 bg-orange"></span>
 	</div>
 
 	<div class="w-full text-justify text-black dark:text-white lg:w-1/2">
 		<p class="mb-2">
-			Experienced Web Developer adept in all stages of advanced web
-			development. Knowledgeable in user interface, testing, and
-			debugging processes. Bringing forth expertise in design,
-			installation, testing and maintenance of web systems. Equipped
-			with a diverse and promising skill-set. Proficient in an assortment
-			of technologies, including JavaScript, Python, C#. A creative thinker,
-			adept in software development and working with various data
-			structures.
+			{t("about.description")}
 		</p>
 	</div>
 </section>

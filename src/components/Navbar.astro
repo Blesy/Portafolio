@@ -1,25 +1,23 @@
 ---
 import Button from '@components/ui/Button.astro';
-import PDFeng from '@assets/files/englishCV.pdf';
-import PDFesp from '@assets/files/spanishCV.pdf';
+import { t } from 'i18next';
 import ToggleTheme from '@components/ui/ToggleTheme.astro';
 import { Astronav, MenuIcon, MenuItems, Dropdown, DropdownItems } from 'astro-navbar';
-
 const menuitems = [
 	{
-		title: 'About',
+		title: t("navbar.about"),
 		path: '#about',
 	},
 	{
-		title: 'Projects',
+		title: t("navbar.projects"),
 		path: '#projects',
 	},
 	{
-		title: 'Skills',
+		title: t("navbar.skills"),
 		path: '#skills',
 	},
 	{
-		title: 'Contact',
+		title: t("navbar.contact"),
 		path: '#contact',
 	},
 ];
@@ -28,7 +26,7 @@ const menuitems = [
 <header data-testId="header" class="my-5 flex flex-col items-center justify-between lg:flex-row">
 	<Astronav>
 		<div class="flex w-full items-center justify-between lg:w-auto">
-			<Button size={'sm'} name="Download CV"><a href={PDFeng || PDFesp} download="Blesy-AnguloCV.pdf">Download CV</a></Button>
+			<Button size={'sm'} name="Download CV"><a href={t("navbar.CVfile")} download="Blesy-AnguloCV.pdf">{t("navbar.CV")}</a></Button>
 			<div class="block lg:hidden">
 				<MenuIcon class="h-4 w-4 text-black dark:text-white" />
 			</div>
@@ -53,7 +51,7 @@ const menuitems = [
 				<li>
 					<Dropdown class="group">
 					   <button class="flex py-2 text-black hover:text-orange dark:text-white dark:hover:text-orange lg:px-3">
-						  <span>Lang</span>
+						  <span>{t("navbar.language")}</span>
 						  <svg
 							 xmlns="http://www.w3.org/2000/svg"
 							 fill="none"
@@ -74,12 +72,14 @@ const menuitems = [
 								<li>
 								   <a
 								   aria-label="navigation link"
+								   href="/"
 									class="flex py-2 text-black hover:text-orange dark:text-white dark:hover:text-orange lg:px-3 cursor-pointer">English
 								</a>
 								</li>
 								<li>
 								   <a
 								   aria-label="navigation link"
+								   href="/es"
 									class="flex py-2 text-black hover:text-orange dark:text-white dark:hover:text-orange lg:px-3 cursor-pointer">Español
 								</a>
 								</li>

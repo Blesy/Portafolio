@@ -9,8 +9,7 @@
       "language": "Language"
     },
     "home": {
-      "title1": "Hi! My name is ",
-      "title2": "and I am a software engineer based in Mexico."
+      "title": "Hi! My name is <0>Blesy Angulo</0> and I am a software engineer based in Mexico."
     },
     "about": {
       "title": "About me",
@@ -25,8 +24,6 @@
     },
     "contact": {
       "title": "Say hello!",
-      "description1": "Made by",
-      "description2": ". Based on",
-      "description3": "design."
+      "description": "Made by <0>Blesy Angulo</0>. Based on <1>Veranika's</1> design."
     }
   }

@@ -1,0 +1,29 @@
+{
+    "navbar": {
+      "CV": "Descargar CV",
+      "CVfile": "src/assets/files/spanishCV.pdf",
+      "about": "Sobre mi",
+      "projects": "Proyectos",
+      "skills": "Conocimientos",
+      "contact": "Contacto",
+      "language": "Idioma"
+    },
+    "home": {
+      "title": "Hola! Mi nombre es <0>Blesy Angulo</0> y soy un ingeniero de software que vive en Mexico."
+    },
+    "about": {
+      "title": "Sobre mi",
+      "description": "Experto Desarrollador Web competente en todas las etapas del desarrollo web avanzado. Conocedor en la interfaz de usuario, pruebas y procesos de depuración. Aportando experiencia en diseño, instalación, pruebas y mantenimiento de sistemas web. Equipado con un conjunto de habilidades diverso y prometedor. Proficiente en una variedad de tecnologías, incluyendo JavaScript, Python, C#. Un pensador creativo, experto en desarrollo de software y trabajo con diversas estructuras de datos."
+    },
+    "projects": {
+      "title": "Proyectos",
+      "description": "Ver el repositorio completo en GitHub"
+    },
+    "skills": {
+      "title": "Conocimientos"
+    },
+    "contact": {
+      "title": "Di hola!",
+      "description": "Hecho por <0>Blesy Angulo</0>. Basado en el diseño de <1>Veranika</1>."
+    }
+  }

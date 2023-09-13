@@ -1,14 +1,21 @@
+---
+import { t } from 'i18next';
+import { Trans } from "astro-i18next/components";
+---
 <footer data-testid="footer" class="p-6 text-center text-sm text-black dark:text-white">
 	<p>
-		Made by <a
-			href="https://github.com/Blesy"
-			target="_blank"
-			rel="noopener"
-		>
-			<span class="text-orange"> Blesy Angulo</span>
-		</a>.
-		Based on <a href="https://github.com/veranikabarel/astro-portfolio" target="_blank" rel="noopener"
-			><span class="text-orange">Veranika's</span></a
-		> design.
+		<Trans i18nKey="contact.description">
+			Made by <a
+				href="https://github.com/Blesy"
+				target="_blank"
+				rel="noopener"
+				class="text-orange"
+			>
+				Blesy Angulo
+			</a>.
+			Based on <a href="https://github.com/veranikabarel/astro-portfolio" target="_blank" rel="noopener" class="text-orange"
+				>Veranika's</a
+			> design.
+		</Trans>
 	</p>
 </footer>

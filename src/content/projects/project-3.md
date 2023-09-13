@@ -1,6 +1,6 @@
 ---
 inProgress: false
-title: Videogame project WebPage
+title: Cryptoage Game
 img_alt: project image alt text
 link: https://cryptoage.app/
 tags: ['React', 'CSS']
