@@ -1,0 +1,27 @@
+---
+const skillsArr = [
+   'C++', 'Go', 'Java', 'Javascript', 'Typescript', 'Python', 'C#', 'PHP',
+   'Angular', 'React', 'Node', 'Express', '.Net',
+   'Docker', 'Git', 'Ansible', 'Microservices',
+   'Html', 'Css',
+   'MongoDB', 'PostgreSQL', 'SQL'
+]
+---
+
+<section
+	data-testid="skills"
+	id="skills"
+	class="mb-10 flex flex-col items-center justify-center md:mb-0 md:h-screen"
+>
+	<h2 class="font-monospace text-2xl text-orange lg:text-4xl">Skills</h2>
+	<span class="mb-10 h-1 w-10 bg-orange"></span>
+	
+<div class="grid grid-cols-5 grid-rows-4 gap-8">
+    {
+        skillsArr.map((skill) => (
+            <div>{skill}</div>
+        ))
+    }
+</div>
+    
+</section>

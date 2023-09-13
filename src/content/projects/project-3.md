@@ -1,7 +1,8 @@
 ---
 inProgress: false
-title: Project title
+title: Videogame project WebPage
 img_alt: project image alt text
-link: https://github.com/veranikabarel?tab=repositories
-tags: ['React', 'CSS', 'Typescript']
+link: https://cryptoage.app/
+tags: ['React', 'CSS']
+img_data: cryptoage.png
 ---
