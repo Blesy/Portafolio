@@ -1,0 +1,32 @@
+{
+    "navbar": {
+      "CV": "Download CV",
+      "CVfile": "src/assets/files/englishCV.pdf",
+      "about": "About",
+      "projects": "Projects",
+      "skills": "Skills",
+      "contact": "Contact",
+      "language": "Language"
+    },
+    "home": {
+      "title1": "Hi! My name is ",
+      "title2": "and I am a software engineer based in Mexico."
+    },
+    "about": {
+      "title": "About me",
+      "description": "Experienced Web Developer adept in all stages of advanced web development. Knowledgeable in user interface, testing, and debugging processes. Bringing forth expertise in design, installation, testing and maintenance of web systems. Equipped with a diverse and promising skill-set. Proficient in an assortment of technologies, including JavaScript, Python, C#. A creative thinker, adept in software development and working with various data structures."
+    },
+    "projects": {
+      "title": "Projects",
+      "description": "View full private projects archive"
+    },
+    "skills": {
+      "title": "Skills"
+    },
+    "contact": {
+      "title": "Say hello!",
+      "description1": "Made by",
+      "description2": ". Based on",
+      "description3": "design."
+    }
+  }
