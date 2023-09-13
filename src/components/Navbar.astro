@@ -1,6 +1,8 @@
 ---
 import Button from '@components/ui/Button.astro';
-import { t } from 'i18next';
+import i18next, { t } from 'i18next';
+import spanishCV from '@assets/files/spanishCV.pdf';
+import englishCV from '@assets/files/englishCV.pdf';
 import ToggleTheme from '@components/ui/ToggleTheme.astro';
 import { Astronav, MenuIcon, MenuItems, Dropdown, DropdownItems } from 'astro-navbar';
 const menuitems = [
@@ -26,7 +28,7 @@ const menuitems = [
 <header data-testId="header" class="my-5 flex flex-col items-center justify-between lg:flex-row">
 	<Astronav>
 		<div class="flex w-full items-center justify-between lg:w-auto">
-			<Button size={'sm'} name="Download CV"><a href={t("navbar.CVfile")} download="Blesy-AnguloCV.pdf">{t("navbar.CV")}</a></Button>
+			<Button size={'sm'} name="Download CV"><a href={i18next.language == "en" ? englishCV : spanishCV} download="Blesy-AnguloCV.pdf">{t("navbar.CV")}</a></Button>
 			<div class="block lg:hidden">
 				<MenuIcon class="h-4 w-4 text-black dark:text-white" />
 			</div>
