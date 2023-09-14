@@ -1,0 +1,44 @@
+---
+import { t } from 'i18next';
+import { Trans } from "astro-i18next/components";
+import { Image } from "astro:assets"
+---
+
+<section
+	data-testid="experience"
+	id="experience"
+	class="mb-10 flex flex-col items-center justify-center lg:mb-0 lg:h-screen lg:flex-row"
+>
+	<div class="mb-10 flex w-full flex-col items-center justify-center lg:mb-0 lg:w-1/2">
+		<h2 class="font-monospace text-2xl text-orange lg:text-4xl">{t("experience.title")}</h2>
+		<span class="mb-6 ml-2 h-1 w-10 bg-orange"></span>
+	</div>
+
+	<div class="w-full text-justify text-black dark:text-white lg:w-1/2">
+		<p class="mb-2">
+			<Trans i18nKey="experience.description1">
+                <span class="text-orange text-3xl text-center block">
+                    2020-2023 
+                </span>
+                I worked as a Software Developer at 
+                <a href="https://aforecoppel.com" target="_blank" rel="noopener" class="text-orange"
+                    >Aforecoppel</a
+                >
+                 for 3 years. I've been involved in a variety of projects for clients, bringing extensive experience and knowledge in a range of tasks such as implementing a microservices-based 
+                architecture to reduce dependencies between components, refactoring legacy code to enhance reliability, scalability, and maintainability of projects. Creating, deploying, and maintaining APIs to improve data handling between systems, etc...
+            </Trans>
+		</p>
+        <p class="mb-2">
+			<Trans i18nKey="experience.description2">
+                <span class="text-orange text-3xl text-center block">
+                    2019
+                </span>
+                I worked as a .Net developer at 
+                <a href="http://www.imss.gob.mx" target="_blank" rel="noopener" class="text-orange"
+                    >IMSS</a
+                >
+                for a 6-month project. I performed development and unit testing of an internal system for managing technical appointment scheduling for computer equipment reviews. The system was developed using C#, SQL Server, along with JavaScript, CSS, and HTML.
+            </Trans>
+		</p>
+	</div>
+</section>

@@ -6,7 +6,9 @@
       "projects": "Projects",
       "skills": "Skills",
       "contact": "Contact",
-      "language": "Language"
+      "language": "Language",
+      "education": "Education",
+      "experience": "Experience"
     },
     "home": {
       "title": "Hi! My name is <0>Blesy Angulo</0> and I am a software engineer based in Mexico."
@@ -14,6 +16,15 @@
     "about": {
       "title": "About me",
       "description": "Experienced Web Developer adept in all stages of advanced web development. Knowledgeable in user interface, testing, and debugging processes. Bringing forth expertise in design, installation, testing and maintenance of web systems. Equipped with a diverse and promising skill-set. Proficient in an assortment of technologies, including JavaScript, Python, C#. A creative thinker, adept in software development and working with various data structures."
+    },
+    "education": {
+      "title": "Education",
+      "description": "I have a Bachelor's degree in Computer Science from the <0>Universidad Autónoma de Sinaloa</0>. (2015-2020)"
+    },
+    "experience": {
+      "title": "Experience",
+      "description1": "<0>2020-2023</0> I worked as a Software Developer at <1>Aforecoppel</1> for 3 years. I've been involved in a variety of projects for clients, bringing extensive experience and knowledge in a range of tasks such as implementing a microservices-based architecture to reduce dependencies between components, refactoring legacy code to enhance reliability, scalability, and maintainability of projects. Creating, deploying, and maintaining APIs to improve data handling between systems, etc...",
+      "description2": "<0>2019</0> I worked as a .Net developer at <1>IMSS</1> for a 6-month project. I performed development and unit testing of an internal system for managing technical appointment scheduling for computer equipment reviews. The system was developed using C#, SQL Server, along with JavaScript, CSS, and HTML."
     },
     "projects": {
       "title": "Projects",

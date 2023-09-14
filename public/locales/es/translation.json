@@ -6,7 +6,9 @@
       "projects": "Proyectos",
       "skills": "Conocimientos",
       "contact": "Contacto",
-      "language": "Idioma"
+      "language": "Idioma",
+      "education": "Educación",
+      "experience": "Experiencia"
     },
     "home": {
       "title": "Hola! Mi nombre es <0>Blesy Angulo</0> y soy un ingeniero de software que vive en Mexico."
@@ -14,6 +16,15 @@
     "about": {
       "title": "Sobre mi",
       "description": "Experto Desarrollador Web competente en todas las etapas del desarrollo web avanzado. Conocedor en la interfaz de usuario, pruebas y procesos de depuración. Aportando experiencia en diseño, instalación, pruebas y mantenimiento de sistemas web. Equipado con un conjunto de habilidades diverso y prometedor. Proficiente en una variedad de tecnologías, incluyendo JavaScript, Python, C#. Un pensador creativo, experto en desarrollo de software y trabajo con diversas estructuras de datos."
+    },
+    "education": {
+      "title": "Educación",
+      "description": "Licenciatura en Informática en la <0>Universidad Autónoma de Sinaloa</0>. (2015-2020)"
+    },
+    "experience": {
+      "title": "Experiencia",
+      "description1": "<0>2020-2023</0> Trabaje como desarrollador de Software en <1>Aforecoppel</1> por 3 años. He trabajado en una variedad de proyectos para clientes, aportando una amplia experiencia y conocimiento en una variedad de tareas como implementar una arquitectura basada en microservicios que redujeran las dependencias entre componentes, refactorizar código legacy para mejorar la fiabilidad, escalabilidad y mantenibilidad de los proyectos. Crear, deployar y mantener APIS para mejorar el manejo de datos entre sistemas, etc...",
+      "description2": "<0>2019</0> Trabaje como desarrollador .Net en <1>IMSS</1> por un proyecto de 6 meses. Realize desarrollo y pruebas unitarias de un sistema interno de control de citas técnicas para revision de equipos de computo. El sistema fue desarrollado en C# y SQL Server junto con javascript, CSS y HTML."
     },
     "projects": {
       "title": "Proyectos",
