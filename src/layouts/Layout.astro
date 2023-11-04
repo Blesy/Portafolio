@@ -1,6 +1,4 @@
 ---
-import Footer from '@components/Footer.astro';
-import Navbar from '@components/Navbar.astro';
 import { SEO } from 'astro-seo';
 import i18next from "i18next";
 import { HeadHrefLangs } from "astro-i18next/components";
@@ -30,9 +28,7 @@ const { title = 'John Doe | Web developer' } = Astro.props as LayoutProps;
 	<body
 		class="mx-auto max-w-screen-xl bg-white px-5 font-sans text-white dark:bg-black xs:text-[16px] md:text-[18px]"
 	>
-		<Navbar />
 		<slot />
-		<Footer />
 		<style is:global>
 			/* Improve Page speed */
 			/* https://css-tricks.com/almanac/properties/c/content-visibility/ */
